@@ -1,9 +1,9 @@
 :root {
-  --main-bg-clr: #181818;
+  --main-bg-clr: width;
   --second-bg-clr: #212121;
   --third-bg-clr: #313131;
   --the4th-clr: #111111;
-  --text-clr: #ddd;
+  --text-clr:#111111 ;
   --prpl-clr:rgb(97, 53, 123);
 }
 .app.light {

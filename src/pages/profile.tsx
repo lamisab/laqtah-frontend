@@ -2,10 +2,11 @@
 // import { Profile } from "../components/Profile";
 
 export function Profilepage() {
-    return (
+    return 
+
        
-        <Layout>
-            <Profile></Profile>
-            </Layout>
-    );
+        // <Layout>
+        //     <Profile></Profile>
+        //     </Layout>
+    
 }

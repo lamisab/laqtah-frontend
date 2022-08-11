@@ -1,0 +1,152 @@
+/* profile */
+/* @import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  } */
+#main-card {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background: rgb(249, 249, 249);
+    box-shadow: 0 0 20px 0 rgba(152, 65, 65, 0.2);
+  
+  }
+  
+  .cover-photo {
+    background:#D3CEDF;
+    width: 700px;
+    height: 100px;
+    
+  }
+  
+  .photo {
+    background: #f9f9f9;
+    width: 700px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+  }
+  /* img in profile */
+  .proimg {
+    position: relative;
+    top: -50px;
+    max-width: 200%;
+    max-height: 200%;
+    border-radius: 10%;
+    box-shadow: -1px 1px 11px 6px rgba(85, 3, 3, 0.33);
+  }
+  .content {
+    /* out have information */
+    background: #f9f9f9;
+    height:fit-content;
+    padding-bottom: 20px;
+  }
+  
+  /* info profile */
+   .card-body table {
+  
+    /* background-color: #fff; */
+      border-radius: 18px;
+      background-color: white;
+      /* box-shadow: 1px 1px 8px 0 blueviolet; */
+      margin-left: 44px;
+      height: auto;
+      margin-bottom: 20px;
+      padding: 20px 0 20px 50px;
+      border: none;
+      font-size: 18px;
+      height: 270px;
+      width: 80%;
+      color: #6563ff;
+      text-align: center;
+    /* border: none;
+    font-size: 16px;
+    height: 100px;
+    width: 80%;
+    gap: 30px; */
+    
+  }
+  
+  
+  .edit{
+    background-color:  #7E49AC;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: -60px;
+  margin-left: 75%;
+    border: none;
+    cursor: pointer;
+    width: 90px;
+  border-radius: 15px;
+  
+  }
+  
+  
+  .background{
+    background-image:url("/public/portress.png") ;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+  
+  }
+  /* prodcasr page  */
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+    .cast{
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-content: center;
+      text-align: center;
+    row-gap: 20px;
+    column-gap: 15px;
+      padding: 10px;
+  
+    }
+    .most{
+      margin-left: 900px;
+      margin-top: 50px;
+    }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  
+  /* Style the counter cards */
+  .card {
+  
+    padding: 15px;
+    text-align: center;
+    width:200px;
+    margin-bottom: 40px;
+  
+  }
+  
+  .cast-image{
+    width: 100%;
+    height:300px;
+    object-fit: cover;
+  }.h3{
+    color:#7E49AC;;
+    /* color: #7E49AC; */
+    font-family: 'Dancing Script', cursive;
+    text-align: left;
+    padding: 10px;
+    top: 20px;
+  }

@@ -1,6 +1,6 @@
 import { ReactElement } from 'react';
-// import { Footer } from './Footer';
-// import { Navbar } from './Navbar';
+//  import { Footer } from './Footer';
+ import { Navbar } from './Navbar';
 //  import { Footer } from './Footer';
 
 
@@ -13,7 +13,8 @@ export function Layout({ children }: LayoutProps) {
         <>
           <Navbar />
             {children}
-              <Footer />
-       
+              {/* <Footer />
+        */}
         </>
     );
+      }
