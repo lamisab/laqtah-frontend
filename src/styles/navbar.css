@@ -1,0 +1,123 @@
+/* nav-bar Latefah */
+.logo-nav {float:left;
+    object-fit: cover;
+  
+  }
+  
+  
+  .search-nav{float:left;
+   padding:10px;
+  }
+  
+  
+  .search-nav-1{float:right;
+    
+   }
+  
+  .search-nav input{float:right;
+    
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  width: 180px;
+  border: solid rgb(90, 88, 88);
+  
+   
+  }
+  
+  
+  .nav {
+    
+    position: sticky;
+    top: 0;
+    z-index: 100;
+   
+    /* text-align: center; */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* nav item color */
+    background-color:white;
+      /* border nav */
+  border: solid whitesmoke;
+
+  border-bottom-width: 3px;
+  
+
+  }
+  .c1{
+    text-align: right;
+    justify-content: end;
+      /* float:right; */
+    
+  }
+  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  
+   
+  }
+  
+  
+  li {
+  
+    display:inline-block;
+    text-align: center;
+    justify-content: center;
+    
+  
+  }
+  
+  .title{
+    margin-left: 100px;
+    
+  
+  }
+  /* برودكاست يتحدث معك */
+  .topic{
+   text-align: center;
+   margin-top: 100px;
+   color: #7E49AC;
+  
+  
+  }
+  
+  li a {
+    display: block;
+    /* home, contact, line color */
+    color: #6563ff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    
+  }
+  
+  li a:hover:not(.active) {
+  
+    color: rgb(10, 7, 7);
+    
+    text-decoration:none
+  }
+  /* Access button */
+  .details button{
+    cursor: pointer;
+    font-size: 14px;
+    color: #6563ff;
+    border-radius: 4px;
+    padding: 4px 11px;
+    background: #fff;
+    border: 2px solid #6563ff;
+    transition: 0.3s ease;
+    /* float:right; */
+    
+  }
+  .details button:hover{
+    color: #fff;
+    background: #6563ff;
+  }
+  
+  
