@@ -1,0 +1,68 @@
+.reservation {
+  max-width: 900px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.reservation > h1 {
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.reservation__container {
+  background: var(--white-clr);
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.reservation__container > h2 {
+  border-bottom: 1px solid #ddd;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+.reservation__from {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-top: 20px;
+}
+.reservation__btns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.reservation__btns > button {
+  background: #fff;
+  border-radius: 5px;
+  color: var(--blue-clr);
+  padding: 5px 0;
+  cursor: pointer;
+  border: 1px solid rgb(210, 210, 210);
+  width: 100px;
+}
+
+.reservation__from input {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background: #eee;
+}
+.reservation__card {
+  display: flex;
+  gap: 10px;
+}
+.reservation__card > input {
+  width: 100%;
+}
+.reservation__btn {
+  background: var(--blue-clr);
+  border-radius: 5px;
+  color: #fff;
+  padding: 5px 0;
+  cursor: pointer;
+  border: none;
+}

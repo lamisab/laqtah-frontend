@@ -1,0 +1,15 @@
+.thanks {
+  max-width: 900px;
+  padding: 40px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+.thanks > h1 {
+  font-size: 30px;
+  text-transform: capitalize;
+  color: var(--blue-clr);
+}
+.thanks > h2 {
+  line-height: 1.2;
+  margin-bottom: 20px;
+}

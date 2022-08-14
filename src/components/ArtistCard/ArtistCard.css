@@ -1,0 +1,34 @@
+.artistCard {
+  display: flex;
+  align-items: center;
+  background: var(--white-clr);
+  border-radius: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+.artistCard__avatar {
+  width: 45px;
+  height: 45px;
+  background: #ddd;
+  border-radius: 50%;
+  margin-left: 10px;
+  overflow: hidden;
+}
+.artistCard__avatar > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.artistCard__info {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.5;
+  padding: 10px;
+  margin-right: 10px;
+}
+.artistCard__info > h2 {
+  font-size: 16px;
+}
+.artistCard__info > h3 {
+  font-size: 16px;
+  color: rgb(34, 197, 20);
+}

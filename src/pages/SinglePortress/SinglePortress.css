@@ -1,0 +1,77 @@
+.singlePortress {
+  max-width: 900px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.singlePortress > h1 {
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.singlePortress__container {
+  background: var(--white-clr);
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  gap: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+.singlePortress__left {
+  flex: 2;
+  padding: 20px 0 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.singlePortress__info {
+  height: 100%;
+}
+.singlePortress__btns {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.singlePortress__btns > a {
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #222;
+  text-decoration: none;
+  font-size: 14px;
+  color: #222;
+}
+.singlePortress__btns > a:first-child {
+  background: var(--blue-clr);
+  color: var(--white-clr);
+  border: 1px solid transparent;
+}
+
+.singlePortress__right {
+  flex: 1;
+}
+.singlePortress__right > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.singlePortress__infoRow {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.singlePortress__infoRow > p {
+  font-size: 16px;
+  text-transform: capitalize;
+  min-width: 100px;
+  font-weight: bold;
+}
+.singlePortress__infoRow > h3 {
+  font-size: 16px;
+  width: 100px;
+  font-weight: bold;
+  width: 100%;
+  color: #777;
+}
