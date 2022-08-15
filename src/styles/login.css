@@ -147,7 +147,9 @@
       }
   
   
-  
+  h1.log{
+    color: #6563ff;
+  }
       .log-btn {
         width: 93%;
         background-color:  #6563ff;

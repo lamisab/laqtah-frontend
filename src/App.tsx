@@ -1,27 +1,28 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { useAppSelector } from "./app/hooks";
-import { Loginpage } from './pages/login';
-import { SignPage } from './pages/signUp';
-import{PortressInfoPage,PortressInfoPage2} from './pages/portress-Info';
-
+import { Routes, Route } from "react-router-dom";
+import Account from "./pages/Account/Account";
+import Home from "./pages/Home/Home";
+import { Loginpage } from './pages/Sign/log/Login';
+import { SignPage } from './pages/Sign/log/Signup';
+import Portress from "./pages/Portress/Portress";
+import Reservation from "./pages/Reservation/Reservation";
+import SinglePortress from "./pages/SinglePortress/SinglePortress";
+import Thanks from "./pages/Thanks/Thanks";
 import './styles/login.css';
-import './styles/navbar.css';
-import './styles/PortressInfo.css';
+
 
 function App() {
-  const { theme } = useAppSelector((state) => state.theme);
-
   return (
-    <div className={`App ${theme}`}>
-       <BrowserRouter>
-        <Routes>
+    <div className="app">
+      <Routes>
+        <Route path="/" element={<Home />} />
         <Route path='/sign' element={< SignPage/>} />
         <Route path='/login' element={< Loginpage/>} />
-        <Route path='/portress' element={<PortressInfoPage />} />
-        <Route path='/portress2' element={<PortressInfoPage2 />} />
-        </Routes>
-      </BrowserRouter>
-
+        <Route path="/portress" element={<Portress />} />
+        <Route path="/portress/:id" element={<SinglePortress />} />
+        <Route path="/reservation" element={<Reservation />} />
+        <Route path="/payment/success" element={<Thanks />} />
+        <Route path="/account" element={<Account />} />
+      </Routes>
     </div>
   );
 }

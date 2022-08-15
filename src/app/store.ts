@@ -1,11 +1,9 @@
-// from https://redux-toolkit.js.org/tutorials/typescript
-
 import { configureStore } from "@reduxjs/toolkit";
-import themeSlice from "./redux/themeSlice";
+import portressSlice from "./redux/portress/portress";
 
 export const store = configureStore({
   reducer: {
-    theme: themeSlice,
+    portress: portressSlice,
   },
 });
 
